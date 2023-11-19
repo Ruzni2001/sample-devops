@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>anguler JS-basics</title>
+
+	<script src="angular.min.js"></script>
+</head>
+
+<body>
+	<div ng-app="">
+		<p>
+			first name: <input type="text" ng-model="fname"> <br>
+			last name: <input type="text" ng-model="lname">
+
+		</p>
+		<p>
+			welcome, <b ng-bind="fname +' '+lname"></b>
+		</p>
+	</div>
+</body>
+</html>
